@@ -17,7 +17,7 @@ namespace Fni.Site.Solution.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Your app description page. feiojfeiojfeojfeo";
 
             return View();
         }
