@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Web.WebPages.OAuth;
-using Fni.Site.Solution.Models;
-
-namespace Fni.Site.Solution
+﻿namespace Fni.Site.Solution
 {
     public static class AuthConfig
     {
