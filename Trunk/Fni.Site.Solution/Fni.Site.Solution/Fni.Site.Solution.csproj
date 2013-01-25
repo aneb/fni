@@ -40,6 +40,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NLipsum.Core">
+      <HintPath>..\packages\Prototyping_MVC.1.1\lib\NLipsum.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Prototyping.Ipsum">
+      <HintPath>..\packages\Prototyping_MVC.1.1\lib\Prototyping.Ipsum.dll</HintPath>
+    </Reference>
+    <Reference Include="Prototyping.Placeholdit">
+      <HintPath>..\packages\Prototyping_MVC.1.1\lib\Prototyping.Placeholdit.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -243,6 +252,7 @@
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="humans.txt" />
+    <Content Include="Ipsum_examples.txt" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\foundation\app.js" />
     <Content Include="Scripts\foundation\foundation.min.js" />
@@ -315,6 +325,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\_Foundation.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
