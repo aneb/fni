@@ -1,23 +1,26 @@
-﻿<div class="row">
+﻿@using Prototyping.Ipsum
+@using Prototyping.Placeholdit
+
+<div class="row">
     <div class="nine columns">
         <div class="row">
             <div class="twelve columns">
-                #Article header#
+                @Html.Ipsum().h1()
             </div>
         </div>
         <div class="row">
             <div class="twelve columns">
-                #Article image#
+               @Html.Placehold(width: 690, height: 365, text: "Image")
             </div>
         </div>
         <div class="row">
             <div class="twelve columns">
-                #Article Content#
+                @Html.Ipsum()
             </div>
         </div>
         <div class="row">
-            <div class="twelve columns">
-                #Community partial links#
+            <div class="twelve columns" style="text-align: right">
+                @Html.Placehold(width: 364, height: 23, text: "Community links")
             </div>
         </div>
         <div class="row">
